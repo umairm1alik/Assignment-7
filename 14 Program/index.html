@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <h1>js program to input marks of five subjects <br> Physics, Chemistry, Biology, Mathematics and Computer. <br> Calculate percentage and grade.</h1>
+        <table border="1px solid px">
+            <tr>
+                <th>Subject</th>
+                <th>Marks Obt</th>
+                <th>Total Marks</th>
+                <th>%</th>
+                <th>Grade</th>
+            </tr>
+            <tr>
+                <th>Physics </th>
+                <td>
+                    <input type="number" id="phy" placeholder="Enter Obtained Marks">
+                </td>
+                <td>100</td>
+                <td id="phy%"></td>
+                <td id="phyGrade"></td>
+            </tr>
+    
+            <tr>
+                <th>Chemistry </th>
+                <td>
+                    <input type="number" id="che" placeholder="Enter Obtained Marks">
+                </td>
+                <td>100</td>
+                <td id="che%"></td>
+                <td id="cheGrade"></td>
+            </tr>
+    
+            <tr>
+                <th>Biology </th>
+                <td>
+                    <input type="number" id="bio" placeholder="Enter Obtained Marks">
+                </td>
+                <td>100</td>
+                <td id="bio%"></td>
+                <td id="bioGrade"></td>
+            </tr>
+    
+            <tr>
+                <th>Mathematics </th>
+                <td>
+                    <input type="number" id="math" placeholder="Enter Obtained Marks">
+                </td>
+                <td>100</td>
+                <td id="math%"></td>
+                <td id="mathGrade"></td>
+            </tr>
+    
+            <tr>
+                <th>Computer </th>
+                <td>
+                    <input type="number" id="comp" placeholder="Enter Obtained Marks">
+                </td>
+                <td>100</td>
+                <td id="comp%"></td>
+                <td id="compGrade"></td>
+            </tr>
+    
+            <tr>
+                <th><b>Total</b></th>
+                <td id="totalObt">
+                    
+                </td>
+                <td>500</td>
+                <td id="total%"></td>
+                <td id="totalGrade"></td>
+            </tr>
+    
+    
+        </table>
+        <button onclick="compute()">Compute</button>    
+    </div>
+    
+    <script src="script.js"></script>
+    
+</body>
+</html>
